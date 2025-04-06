@@ -1,6 +1,14 @@
 import React from 'react';
-import { Card, CardTitle, CardBody, Title } from '@patternfly/react-core';
-import { ChartDonut } from '@patternfly/react-charts';
+import {
+  Card,
+  CardTitle,
+  CardBody,
+  Title
+} from '@patternfly/react-core';
+import {
+  ChartDonut,
+  ChartLabel
+} from '@patternfly/react-charts';
 import { useTheme } from '../context/ThemeContext';
 
 interface SummaryCardProps {
@@ -33,12 +41,12 @@ export const SummaryCard: React.FC<SummaryCardProps> = ({
     mode === 'dark'
       ? {
           backgroundColor: '#1f1f1f',
-          color: 'white',
+          color: 'var(--pf-v5-global--Color--100)',
           border: '1px solid #3c3f42'
         }
       : {
-          backgroundColor: 'white',
-          color: 'black',
+          backgroundColor: '#ffffff',
+          color: 'var(--pf-v5-global--Color--100)',
           border: '1px solid #d2d2d2'
         };
 
@@ -51,18 +59,36 @@ export const SummaryCard: React.FC<SummaryCardProps> = ({
             ariaDesc={`${title} donut chart`}
             ariaTitle={title}
             constrainToVisibleArea
-            data={[{ x: 'Used', y: donutValue }]}
+            data={[{ x: title, y: donutValue }]}
             labels={({ datum }) => `${datum.y}${donutSuffix}`}
             subTitle={title}
             title={`${donutValue}${donutSuffix}`}
             height={150}
             width={150}
+            titleComponent={
+              <ChartLabel
+                style={{
+                  fill: 'var(--pf-v5-global--Color--100)',
+                  fontSize: 24,
+                  fontWeight: 'bold'
+                }}
+              />
+            }
+            subTitleComponent={
+              <ChartLabel
+                style={{
+                  fill: 'var(--pf-v5-global--Color--200)',
+                  fontSize: 10,
+                  fontWeight: 500
+                }}
+              />
+            }
           />
         ) : (
           <>
             <Title headingLevel="h3" size="xl">{value}</Title>
             {subtitle && (
-              <p style={{ marginTop: '0.5rem', color: '#6a6e73' }}>
+              <p style={{ marginTop: '0.5rem', color: 'var(--pf-v5-global--Color--200)' }}>
                 {subtitle}
               </p>
             )}

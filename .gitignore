@@ -137,3 +137,7 @@ dist
 
 # Mac 
 .DS_Store
+
+# Dev Files
+*.bak
+*.new
