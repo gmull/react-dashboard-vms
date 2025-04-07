@@ -14,7 +14,7 @@ import { useDashboardConfig } from '../context/ConfigContext';
 
 export const Dashboard: React.FC = () => {
   const { summary } = useMigrationDashboard();
-  const { config, setConfigFromFile } = useDashboardConfig(); // ✅ Moved inside component
+  const { config, setConfigFromFile } = useDashboardConfig();
 
   return (
     <>
@@ -24,15 +24,6 @@ export const Dashboard: React.FC = () => {
           <Title headingLevel="h1">{config.title}</Title>
 
           <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
-            <input
-              type="file"
-              accept="application/json"
-              onChange={(e) => {
-                const file = e.target.files?.[0];
-                if (file) setConfigFromFile(file);
-              }}
-              style={{ fontSize: '0.9rem' }}
-            />
             <ThemeToggle />
           </div>
         </div>

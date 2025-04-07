@@ -15,6 +15,8 @@
         "@patternfly/react-tokens": "^5.4.1",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
+        "react-icons": "^5.5.0",
+        "react-router-dom": "^7.5.0",
         "victory": "^35.4.0",
         "victory-core": "^35.4.0"
     },

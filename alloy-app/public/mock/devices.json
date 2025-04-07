@@ -1,0 +1,402 @@
+[
+  {
+    "service_provider": "AZURE",
+    "service_provider_account_id": "ff5c0aa5-a03e-47b5-9761-f4a44b0ed2df",
+    "hostname": "GOLDSNITCH-VM01",
+    "platform_name": "Windows",
+    "status": "offline",
+    "agent_version": "7.18.12000.0"
+  },
+  {
+    "service_provider": "AZURE",
+    "service_provider_account_id": "ff5c0aa5-a03e-47b5-9761-f4a44b0ed2df",
+    "hostname": "GOLDSNITCH-VM02",
+    "platform_name": "Linux",
+    "status": "offline",
+    "agent_version": "7.17.18604.0"
+  },
+  {
+    "service_provider": "AZURE",
+    "service_provider_account_id": "ff5c0aa5-a03e-47b5-9761-f4a44b0ed2df",
+    "hostname": "GOLDSNITCH-VM03",
+    "platform_name": "Windows",
+    "status": "offline",
+    "agent_version": "7.16.21004.0"
+  },
+  {
+    "service_provider": "AZURE",
+    "service_provider_account_id": "ff5c0aa5-a03e-47b5-9761-f4a44b0ed2df",
+    "hostname": "GOLDSNITCH-VM04",
+    "platform_name": "Windows",
+    "status": "warning",
+    "agent_version": "7.18.12000.0"
+  },
+  {
+    "service_provider": "AZURE",
+    "service_provider_account_id": "ff5c0aa5-a03e-47b5-9761-f4a44b0ed2df",
+    "hostname": "GOLDSNITCH-VM05",
+    "platform_name": "Windows",
+    "status": "warning",
+    "agent_version": "7.18.12000.0"
+  },
+  {
+    "service_provider": "AZURE",
+    "service_provider_account_id": "ff5c0aa5-a03e-47b5-9761-f4a44b0ed2de",
+    "hostname": "GOLDSNITCH-VM06",
+    "platform_name": "Linux",
+    "status": "normal",
+    "agent_version": "7.16.21004.0"
+  },
+  {
+    "service_provider": "AZURE",
+    "service_provider_account_id": "ff5c0aa5-a03e-47b5-9761-f4a44b0ed2de",
+    "hostname": "GOLDSNITCH-VM07",
+    "platform_name": "Windows",
+    "status": "offline",
+    "agent_version": "7.16.21004.0"
+  },
+  {
+    "service_provider": "AZURE",
+    "service_provider_account_id": "ff5c0aa5-a03e-47b5-9761-f4a44b0ed2de",
+    "hostname": "GOLDSNITCH-VM08",
+    "platform_name": "Linux",
+    "status": "normal",
+    "agent_version": "7.18.12000.0"
+  },
+  {
+    "service_provider": "AZURE",
+    "service_provider_account_id": "ff5c0aa5-a03e-47b5-9761-f4a44b0ed2de",
+    "hostname": "GOLDSNITCH-VM09",
+    "platform_name": "Windows",
+    "status": "warning",
+    "agent_version": "7.16.21004.0"
+  },
+  {
+    "service_provider": "AZURE",
+    "service_provider_account_id": "ff5c0aa5-a03e-47b5-9761-f4a44b0ed2df",
+    "hostname": "GOLDSNITCH-VM10",
+    "platform_name": "Linux",
+    "status": "offline",
+    "agent_version": "7.16.21004.0"
+  },
+  {
+    "service_provider": "AZURE",
+    "service_provider_account_id": "ff5c0aa5-a03e-47b5-9761-f4a44b0ed2df",
+    "hostname": "GOLDSNITCH-VM11",
+    "platform_name": "Windows",
+    "status": "warning",
+    "agent_version": "7.18.12000.0"
+  },
+  {
+    "service_provider": "AZURE",
+    "service_provider_account_id": "ff5c0aa5-a03e-47b5-9761-f4a44b0ed2df",
+    "hostname": "GOLDSNITCH-VM12",
+    "platform_name": "Linux",
+    "status": "normal",
+    "agent_version": "7.18.12000.0"
+  },
+  {
+    "service_provider": "AZURE",
+    "service_provider_account_id": "ff5c0aa5-a03e-47b5-9761-f4a44b0ed2de",
+    "hostname": "GOLDSNITCH-VM13",
+    "platform_name": "Linux",
+    "status": "offline",
+    "agent_version": "7.18.12000.0"
+  },
+  {
+    "service_provider": "AZURE",
+    "service_provider_account_id": "ff5c0aa5-a03e-47b5-9761-f4a44b0ed2df",
+    "hostname": "GOLDSNITCH-VM14",
+    "platform_name": "Linux",
+    "status": "warning",
+    "agent_version": "7.18.12000.0"
+  },
+  {
+    "service_provider": "AZURE",
+    "service_provider_account_id": "ff5c0aa5-a03e-47b5-9761-f4a44b0ed2de",
+    "hostname": "GOLDSNITCH-VM15",
+    "platform_name": "Windows",
+    "status": "normal",
+    "agent_version": "7.17.18604.0"
+  },
+  {
+    "service_provider": "AZURE",
+    "service_provider_account_id": "ff5c0aa5-a03e-47b5-9761-f4a44b0ed2de",
+    "hostname": "GOLDSNITCH-VM16",
+    "platform_name": "Linux",
+    "status": "normal",
+    "agent_version": "7.18.12000.0"
+  },
+  {
+    "service_provider": "AZURE",
+    "service_provider_account_id": "ff5c0aa5-a03e-47b5-9761-f4a44b0ed2de",
+    "hostname": "GOLDSNITCH-VM17",
+    "platform_name": "Linux",
+    "status": "warning",
+    "agent_version": "7.16.21004.0"
+  },
+  {
+    "service_provider": "AZURE",
+    "service_provider_account_id": "ff5c0aa5-a03e-47b5-9761-f4a44b0ed2de",
+    "hostname": "GOLDSNITCH-VM18",
+    "platform_name": "Windows",
+    "status": "offline",
+    "agent_version": "7.16.21004.0"
+  },
+  {
+    "service_provider": "AZURE",
+    "service_provider_account_id": "ff5c0aa5-a03e-47b5-9761-f4a44b0ed2df",
+    "hostname": "GOLDSNITCH-VM19",
+    "platform_name": "Linux",
+    "status": "normal",
+    "agent_version": "7.17.18604.0"
+  },
+  {
+    "service_provider": "AZURE",
+    "service_provider_account_id": "ff5c0aa5-a03e-47b5-9761-f4a44b0ed2de",
+    "hostname": "GOLDSNITCH-VM20",
+    "platform_name": "Windows",
+    "status": "normal",
+    "agent_version": "7.18.12000.0"
+  },
+  {
+    "service_provider": "AZURE",
+    "service_provider_account_id": "ff5c0aa5-a03e-47b5-9761-f4a44b0ed2df",
+    "hostname": "GOLDSNITCH-VM21",
+    "platform_name": "Linux",
+    "status": "normal",
+    "agent_version": "7.16.21004.0"
+  },
+  {
+    "service_provider": "AZURE",
+    "service_provider_account_id": "ff5c0aa5-a03e-47b5-9761-f4a44b0ed2df",
+    "hostname": "GOLDSNITCH-VM22",
+    "platform_name": "Windows",
+    "status": "offline",
+    "agent_version": "7.17.18604.0"
+  },
+  {
+    "service_provider": "AZURE",
+    "service_provider_account_id": "ff5c0aa5-a03e-47b5-9761-f4a44b0ed2df",
+    "hostname": "GOLDSNITCH-VM23",
+    "platform_name": "Windows",
+    "status": "warning",
+    "agent_version": "7.16.21004.0"
+  },
+  {
+    "service_provider": "AZURE",
+    "service_provider_account_id": "ff5c0aa5-a03e-47b5-9761-f4a44b0ed2de",
+    "hostname": "GOLDSNITCH-VM24",
+    "platform_name": "Linux",
+    "status": "warning",
+    "agent_version": "7.16.21004.0"
+  },
+  {
+    "service_provider": "AZURE",
+    "service_provider_account_id": "ff5c0aa5-a03e-47b5-9761-f4a44b0ed2df",
+    "hostname": "GOLDSNITCH-VM25",
+    "platform_name": "Windows",
+    "status": "warning",
+    "agent_version": "7.17.18604.0"
+  },
+  {
+    "service_provider": "AZURE",
+    "service_provider_account_id": "ff5c0aa5-a03e-47b5-9761-f4a44b0ed2de",
+    "hostname": "GOLDSNITCH-VM26",
+    "platform_name": "Linux",
+    "status": "warning",
+    "agent_version": "7.18.12000.0"
+  },
+  {
+    "service_provider": "AZURE",
+    "service_provider_account_id": "ff5c0aa5-a03e-47b5-9761-f4a44b0ed2de",
+    "hostname": "GOLDSNITCH-VM27",
+    "platform_name": "Linux",
+    "status": "warning",
+    "agent_version": "7.16.21004.0"
+  },
+  {
+    "service_provider": "AZURE",
+    "service_provider_account_id": "ff5c0aa5-a03e-47b5-9761-f4a44b0ed2de",
+    "hostname": "GOLDSNITCH-VM28",
+    "platform_name": "Linux",
+    "status": "warning",
+    "agent_version": "7.16.21004.0"
+  },
+  {
+    "service_provider": "AZURE",
+    "service_provider_account_id": "ff5c0aa5-a03e-47b5-9761-f4a44b0ed2df",
+    "hostname": "GOLDSNITCH-VM29",
+    "platform_name": "Linux",
+    "status": "warning",
+    "agent_version": "7.17.18604.0"
+  },
+  {
+    "service_provider": "AZURE",
+    "service_provider_account_id": "ff5c0aa5-a03e-47b5-9761-f4a44b0ed2de",
+    "hostname": "GOLDSNITCH-VM30",
+    "platform_name": "Linux",
+    "status": "normal",
+    "agent_version": "7.17.18604.0"
+  },
+  {
+    "service_provider": "AZURE",
+    "service_provider_account_id": "ff5c0aa5-a03e-47b5-9761-f4a44b0ed2de",
+    "hostname": "GOLDSNITCH-VM31",
+    "platform_name": "Windows",
+    "status": "offline",
+    "agent_version": "7.17.18604.0"
+  },
+  {
+    "service_provider": "AZURE",
+    "service_provider_account_id": "ff5c0aa5-a03e-47b5-9761-f4a44b0ed2de",
+    "hostname": "GOLDSNITCH-VM32",
+    "platform_name": "Windows",
+    "status": "offline",
+    "agent_version": "7.16.21004.0"
+  },
+  {
+    "service_provider": "AZURE",
+    "service_provider_account_id": "ff5c0aa5-a03e-47b5-9761-f4a44b0ed2de",
+    "hostname": "GOLDSNITCH-VM33",
+    "platform_name": "Windows",
+    "status": "normal",
+    "agent_version": "7.16.21004.0"
+  },
+  {
+    "service_provider": "AZURE",
+    "service_provider_account_id": "ff5c0aa5-a03e-47b5-9761-f4a44b0ed2df",
+    "hostname": "GOLDSNITCH-VM34",
+    "platform_name": "Windows",
+    "status": "normal",
+    "agent_version": "7.17.18604.0"
+  },
+  {
+    "service_provider": "AZURE",
+    "service_provider_account_id": "ff5c0aa5-a03e-47b5-9761-f4a44b0ed2df",
+    "hostname": "GOLDSNITCH-VM35",
+    "platform_name": "Windows",
+    "status": "warning",
+    "agent_version": "7.16.21004.0"
+  },
+  {
+    "service_provider": "AZURE",
+    "service_provider_account_id": "ff5c0aa5-a03e-47b5-9761-f4a44b0ed2de",
+    "hostname": "GOLDSNITCH-VM36",
+    "platform_name": "Windows",
+    "status": "normal",
+    "agent_version": "7.16.21004.0"
+  },
+  {
+    "service_provider": "AZURE",
+    "service_provider_account_id": "ff5c0aa5-a03e-47b5-9761-f4a44b0ed2de",
+    "hostname": "GOLDSNITCH-VM37",
+    "platform_name": "Linux",
+    "status": "warning",
+    "agent_version": "7.17.18604.0"
+  },
+  {
+    "service_provider": "AZURE",
+    "service_provider_account_id": "ff5c0aa5-a03e-47b5-9761-f4a44b0ed2df",
+    "hostname": "GOLDSNITCH-VM38",
+    "platform_name": "Linux",
+    "status": "warning",
+    "agent_version": "7.16.21004.0"
+  },
+  {
+    "service_provider": "AZURE",
+    "service_provider_account_id": "ff5c0aa5-a03e-47b5-9761-f4a44b0ed2df",
+    "hostname": "GOLDSNITCH-VM39",
+    "platform_name": "Windows",
+    "status": "warning",
+    "agent_version": "7.16.21004.0"
+  },
+  {
+    "service_provider": "AZURE",
+    "service_provider_account_id": "ff5c0aa5-a03e-47b5-9761-f4a44b0ed2df",
+    "hostname": "GOLDSNITCH-VM40",
+    "platform_name": "Linux",
+    "status": "normal",
+    "agent_version": "7.17.18604.0"
+  },
+  {
+    "service_provider": "AZURE",
+    "service_provider_account_id": "ff5c0aa5-a03e-47b5-9761-f4a44b0ed2df",
+    "hostname": "GOLDSNITCH-VM41",
+    "platform_name": "Windows",
+    "status": "normal",
+    "agent_version": "7.18.12000.0"
+  },
+  {
+    "service_provider": "AZURE",
+    "service_provider_account_id": "ff5c0aa5-a03e-47b5-9761-f4a44b0ed2df",
+    "hostname": "GOLDSNITCH-VM42",
+    "platform_name": "Linux",
+    "status": "warning",
+    "agent_version": "7.18.12000.0"
+  },
+  {
+    "service_provider": "AZURE",
+    "service_provider_account_id": "ff5c0aa5-a03e-47b5-9761-f4a44b0ed2de",
+    "hostname": "GOLDSNITCH-VM43",
+    "platform_name": "Windows",
+    "status": "warning",
+    "agent_version": "7.18.12000.0"
+  },
+  {
+    "service_provider": "AZURE",
+    "service_provider_account_id": "ff5c0aa5-a03e-47b5-9761-f4a44b0ed2df",
+    "hostname": "GOLDSNITCH-VM44",
+    "platform_name": "Windows",
+    "status": "offline",
+    "agent_version": "7.18.12000.0"
+  },
+  {
+    "service_provider": "AZURE",
+    "service_provider_account_id": "ff5c0aa5-a03e-47b5-9761-f4a44b0ed2de",
+    "hostname": "GOLDSNITCH-VM45",
+    "platform_name": "Windows",
+    "status": "offline",
+    "agent_version": "7.17.18604.0"
+  },
+  {
+    "service_provider": "AZURE",
+    "service_provider_account_id": "ff5c0aa5-a03e-47b5-9761-f4a44b0ed2de",
+    "hostname": "GOLDSNITCH-VM46",
+    "platform_name": "Windows",
+    "status": "normal",
+    "agent_version": "7.18.12000.0"
+  },
+  {
+    "service_provider": "AZURE",
+    "service_provider_account_id": "ff5c0aa5-a03e-47b5-9761-f4a44b0ed2de",
+    "hostname": "GOLDSNITCH-VM47",
+    "platform_name": "Linux",
+    "status": "normal",
+    "agent_version": "7.18.12000.0"
+  },
+  {
+    "service_provider": "AZURE",
+    "service_provider_account_id": "ff5c0aa5-a03e-47b5-9761-f4a44b0ed2df",
+    "hostname": "GOLDSNITCH-VM48",
+    "platform_name": "Windows",
+    "status": "offline",
+    "agent_version": "7.18.12000.0"
+  },
+  {
+    "service_provider": "AZURE",
+    "service_provider_account_id": "ff5c0aa5-a03e-47b5-9761-f4a44b0ed2de",
+    "hostname": "GOLDSNITCH-VM49",
+    "platform_name": "Windows",
+    "status": "normal",
+    "agent_version": "7.17.18604.0"
+  },
+  {
+    "service_provider": "AZURE",
+    "service_provider_account_id": "ff5c0aa5-a03e-47b5-9761-f4a44b0ed2de",
+    "hostname": "GOLDSNITCH-VM50",
+    "platform_name": "Linux",
+    "status": "offline",
+    "agent_version": "7.18.12000.0"
+  }
+]

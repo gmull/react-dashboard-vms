@@ -1,19 +1,23 @@
 .pf-theme-dark {
   --pf-v5-global--BackgroundColor: #1f1f1f;
   
-    /* Text colors */
-    --pf-v5-global--Color--100: var(--pf-v5-global--palette--white); /* Bright text */
-    --pf-v5-global--Color--200: #cfcfcf; /* Secondary/gray text */
+  /* Sidebar */
+  --sidebar-bg: #1a1a1a;
+  --sidebar-text: #ffffff;
+
+  /* Text colors */
+  --pf-v5-global--Color--100: var(--pf-v5-global--palette--white); /* Bright text */
+  --pf-v5-global--Color--200: #cfcfcf; /* Secondary/gray text */
   --pf-v5-global--primary-color--100: #06c;
-  
-    /* Explicit body text color for raw HTML */
-    color: var(--pf-v5-global--Color--100);
+
+  /* Explicit body text color for raw HTML */
+  color: var(--pf-v5-global--Color--100);
 
   /* Page and Card */
   --pf-v5-c-page__main-section--BackgroundColor: #1f1f1f;
   --pf-v5-c-card--BackgroundColor: #2a2a2a;
 
-    /* Table - colors and borders */
+  /* Table - colors and borders */
   --pf-v5-c-table__expandable-row--before--BackgroundColor: #2a2a2a;
   --pf-v5-c-table__th--BackgroundColor: #2a2a2a;
   --pf-v5-c-table__td--BackgroundColor: #2a2a2a;
@@ -22,20 +26,27 @@
   --pf-v5-c-table__tbody--BorderColor: #444;
   --pf-v5-global--BorderColor: #444;
   
-    /* Table text override for full coverage */
-    .pf-c-table th,
-    .pf-c-table td {
-      color: var(--pf-v5-global--Color--100) !important;
-    }
+  /* Table text override for full coverage */
+  .pf-c-table th,
+  .pf-c-table td {
+    color: var(--pf-v5-global--Color--100) !important;
+  }
 }
 
 .pf-theme-light {
-    --pf-v5-global--Color--100: #000000;
-    --pf-v5-global--Color--200: #4a4a4a;
-  
+  /* Global */
+  --pf-v5-global--Color--100: #000000;
+  --pf-v5-global--Color--200: #4a4a4a;
+
+  /* Sidebar*/
+  --sidebar-bg: #f0f0f0;
+  --sidebar-text: #000000;
+
+  /* Page and Cards */
   --pf-v5-c-page__main-section--BackgroundColor: #ffffff;
   --pf-v5-c-card--BackgroundColor: #ffffff;
 
+  /* Table - colors and borders */
   --pf-v5-c-table__expandable-row--before--BackgroundColor: #ffffff;
   --pf-v5-c-table__th--BackgroundColor: #ffffff;
   --pf-v5-c-table__td--BackgroundColor: #ffffff;
@@ -43,9 +54,10 @@
   --pf-v5-c-table__tr--hover--BackgroundColor: #f0f0f0;
   --pf-v5-c-table__tbody--BorderColor: #ccc;
   --pf-v5-global--BorderColor: #ccc;
-  
-    .pf-c-table th,
-    .pf-c-table td {
-      color: var(--pf-v5-global--Color--100) !important;
-    }
+
+  /* Table text override for full coverage */
+  .pf-c-table th,
+  .pf-c-table td {
+    color: var(--pf-v5-global--Color--100) !important;
+  }
 }
