@@ -1,78 +1,141 @@
+/* ====== DARK THEME ====== */
 .pf-theme-dark {
-  --pf-v5-global--BackgroundColor: #1f1f1f;
+    --pf-v5-global--BackgroundColor: #1f1f1f;
   
-  /* Sidebar */
-  --sidebar-bg: #1a1a1a;
-  --sidebar-text: #ffffff;
-
-  /* Text colors */
-  --pf-v5-global--Color--100: var(--pf-v5-global--palette--white); /* Bright text */
-  --pf-v5-global--Color--200: #cfcfcf; /* Secondary/gray text */
-  --pf-v5-global--primary-color--100: #06c;
-
-  /* Explicit body text color for raw HTML */
-  color: var(--pf-v5-global--Color--100);
-
-  /* Page and Card */
-  --pf-v5-c-page__main-section--BackgroundColor: #1f1f1f;
-  --pf-v5-c-card--BackgroundColor: #2a2a2a;
-
-  /* Table - colors and borders */
-  --pf-v5-c-table__expandable-row--before--BackgroundColor: #2a2a2a;
-  --pf-v5-c-table__th--BackgroundColor: #2a2a2a;
-  --pf-v5-c-table__td--BackgroundColor: #2a2a2a;
-  --pf-v5-c-table__tr--BackgroundColor: #2a2a2a;
-  --pf-v5-c-table__tr--hover--BackgroundColor: #3a3a3a;
-  --pf-v5-c-table__tbody--BorderColor: #444;
-  --pf-v5-global--BorderColor: #444;
-  border-spacing: 0 !important;
-  border-collapse: collapse !important;
-  --pf-v5-c-table__tr--BorderColor: #2a2a2a;
-  --pf-v5-c-table--BorderColor: #2a2a2a; 
-
-
-  /* Table text override for full coverage */
-  .pf-c-table th,
-  .pf-c-table td {
-    color: var(--pf-v5-global--Color--100) !important;
+    /* Sidebar */
+    --sidebar-bg: #1a1a1a;
+    --sidebar-text: #ffffff;
+  
+    /* Text colors */
+    --pf-v5-global--Color--100: var(--pf-v5-global--palette--white); /* Bright text */
+    --pf-v5-global--Color--200: #cfcfcf; /* Secondary/gray text */
+    --pf-v5-global--primary-color--100: #06c;
+  
+    /* Apply text color globally */
+    color: var(--pf-v5-global--Color--100);
+  
+    /* Page and Card */
+    --pf-v5-c-page__main-section--BackgroundColor: #1f1f1f;
+    --pf-v5-c-card--BackgroundColor: #2a2a2a;
+  
+    /* Table - colors and borders */
+    --pf-v5-c-table__expandable-row--before--BackgroundColor: #2a2a2a;
+    --pf-v5-c-table__th--BackgroundColor: #2a2a2a;
+    --pf-v5-c-table__td--BackgroundColor: #2a2a2a;
+    --pf-v5-c-table__tr--BackgroundColor: #2a2a2a;
+    --pf-v5-c-table__tr--hover--BackgroundColor: #3a3a3a;
+    --pf-v5-c-table__tbody--BorderColor: #444;
+    --pf-v5-global--BorderColor: #444;
+    --pf-v5-c-table__tr--BorderColor: #2a2a2a;
+    --pf-v5-c-table--BorderColor: #2a2a2a;
+  
+    border-spacing: 0 !important;
+    border-collapse: collapse !important;
+  
+    /* Force table text to stay visible in dark mode */
+    .pf-c-table th,
+    .pf-c-table td {
+      color: var(--pf-v5-global--Color--100) !important;
+    }
+  
+    /* Fix headings in dark mode */
+    h1, h2, h3, h4, h5, h6,
+    .pf-c-title {
+      color: var(--pf-v5-global--Color--100) !important;
+    }
+  
+    /* Main content area */
+    main {
+      background-color: #1f1f1f !important;
+    }
+  
+    header {
+      background-color: #1f1f1f !important;
+      border-color: #2a2a2a !important;
+    }
+  
+    /* Inputs, selects, buttons */
+    input,
+    select,
+    textarea {
+      background-color: #2a2a2a;
+      color: #ffffff;
+      border: 1px solid #444;
+    }
+  
+    input::placeholder,
+    textarea::placeholder {
+      color: #999;
+    }
+  
+    button {
+      background-color: #2a2a2a;
+      color: #ffffff;
+      border: 1px solid #444;
+    }
   }
-
-  main {
-    background-color: #1f1f1f !important;
+  
+  
+  /* ====== LIGHT THEME ====== */
+  .pf-theme-light {
+    --pf-v5-global--Color--100: #000000;
+    --pf-v5-global--Color--200: #4a4a4a;
+    --pf-v5-global--primary-color--100: #06c;
+  
+    /* Sidebar */
+    --sidebar-bg: #f0f0f0;
+    --sidebar-text: #000000;
+  
+    /* Page and Cards */
+    --pf-v5-c-page__main-section--BackgroundColor: #ffffff;
+    --pf-v5-c-card--BackgroundColor: #ffffff;
+  
+    /* Table - colors and borders */
+    --pf-v5-c-table__expandable-row--before--BackgroundColor: #ffffff;
+    --pf-v5-c-table__th--BackgroundColor: #ffffff;
+    --pf-v5-c-table__td--BackgroundColor: #ffffff;
+    --pf-v5-c-table__tr--BackgroundColor: #ffffff;
+    --pf-v5-c-table__tr--hover--BackgroundColor: #f0f0f0;
+    --pf-v5-c-table__tbody--BorderColor: #ccc;
+    --pf-v5-global--BorderColor: #ccc;
+  
+    /* Table text override */
+    .pf-c-table th,
+    .pf-c-table td {
+      color: var(--pf-v5-global--Color--100) !important;
+    }
+  
+    h1, h2, h3, h4, h5, h6,
+    .pf-c-title {
+      color: var(--pf-v5-global--Color--100) !important;
+    }
+  
+    main {
+      background-color: #ffffff !important;
+    }
+  
+    header {
+      background-color: #ffffff !important;
+      border-color: #ccc !important;
+    }
+  
+    input,
+    select,
+    textarea {
+      background-color: #ffffff;
+      color: #000000;
+      border: 1px solid #ccc;
+    }
+  
+    input::placeholder,
+    textarea::placeholder {
+      color: #666;
+    }
+  
+    button {
+      background-color: #ffffff;
+      color: #000000;
+      border: 1px solid #ccc;
+    }
   }
-
-  header {
-    background-color: #1f1f1f !important;
-    border-color: #2a2a2a !important;
-  }
-
-}
-
-.pf-theme-light {
-  /* Global */
-  --pf-v5-global--Color--100: #000000;
-  --pf-v5-global--Color--200: #4a4a4a;
-
-  /* Sidebar*/
-  --sidebar-bg: #f0f0f0;
-  --sidebar-text: #000000;
-
-  /* Page and Cards */
-  --pf-v5-c-page__main-section--BackgroundColor: #ffffff;
-  --pf-v5-c-card--BackgroundColor: #ffffff;
-
-  /* Table - colors and borders */
-  --pf-v5-c-table__expandable-row--before--BackgroundColor: #ffffff;
-  --pf-v5-c-table__th--BackgroundColor: #ffffff;
-  --pf-v5-c-table__td--BackgroundColor: #ffffff;
-  --pf-v5-c-table__tr--BackgroundColor: #ffffff;
-  --pf-v5-c-table__tr--hover--BackgroundColor: #f0f0f0;
-  --pf-v5-c-table__tbody--BorderColor: #ccc;
-  --pf-v5-global--BorderColor: #ccc;
-
-  /* Table text override for full coverage */
-  .pf-c-table th,
-  .pf-c-table td {
-    color: var(--pf-v5-global--Color--100) !important;
-  }
-}
+  
